@@ -1,0 +1,1 @@
+{"version":3,"names":[],"mappings":"","sources":["index.js"],"sourcesContent":["import init from './modules/app';\n\ninit();\n"],"file":"index.js"}

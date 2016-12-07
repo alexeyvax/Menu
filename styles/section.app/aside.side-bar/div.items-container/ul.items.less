@@ -1,0 +1,36 @@
+ul.items
+{
+	display: block;
+	width: 100%;
+	padding: 0;
+	margin: 0 auto 20px;
+	
+	> li
+	{
+		display: block;
+		
+		margin: 0 0 20px 0;
+		list-style: none;
+		
+		&.restore
+		{
+			> textarea
+			{
+				opacity: .5;
+				pointer-events: none;
+			}
+		}
+		
+		> label
+		{
+			display: block;
+		}
+		
+		> textarea
+		{
+			display: block;
+			height: 60px;
+			margin: 0 0 10px 0;
+		}
+	}
+}
